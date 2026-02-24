@@ -39,6 +39,8 @@ Let’s take a look at the distribution of Churn:
 """
 data["description"].value_counts()
 
-#To calculate fractions, pass normalize=True to the value_counts function.
+#To calculate fractions, pass normalize=True to the value_counts function. 
+#gives output in fraction
+
 data["description"].value_counts(normalize=True)
 
