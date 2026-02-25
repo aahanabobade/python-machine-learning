@@ -33,4 +33,10 @@ np.float64(35.363389129985535)
 DataFrames can be indexed by column name (label) or row name (index) or by the serial number of a row. 
 The loc method is used for indexing by name, while iloc() is used for indexing by number.
 """
-print(data.loc[0:10,"country":"winery"])
+print(data.loc[0:6,"country":"province"])
+
+print(data.iloc[0:5,0:3])
+
+#If we need the first or the last line of the data frame, we can use the df[:1] or df[-1:] construction:
+
+print(data[-1:])
